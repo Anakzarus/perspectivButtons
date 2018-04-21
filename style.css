@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+.pb-group{
+	width: 100%;
+	padding: 15px;
+	background: blue;
+	perspective: 800px;
+	text-align: center;
+	font-size: 0;
+}
+.pb-button{
+	transform: translateZ(50px);
+	font-size: 20px;
+	padding: 5px 10px;
+	margin: 10px;
+	box-shadow: 0 0 1px 10px black;
+	transition: 300ms transform;
+}
+.pb-button:hover{
+	transform: translateZ(0px);	
+}
