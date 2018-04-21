@@ -1,2 +1,4 @@
 Peleza capial?!
-<small>jooj was here</small>
+=======================
+
+Use the backtick to refer to a `function()`.
